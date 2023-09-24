@@ -57,10 +57,9 @@ def attimuite_hoi
   puts "----------------"
   if player_direction == program_direction 
     puts "あなたの勝ちです！" 
-    return false 
+    exit
   else 
     janken
-    return false 
   end
 end
 
@@ -83,10 +82,9 @@ def attimuite_hoi_2
   puts "----------------"
   if player_direction == program_direction 
     puts "コンピュータの勝ちです！" 
-    return false 
+    exit
   else 
     janken
-    return false 
   end
 end
 
